@@ -1,0 +1,109 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.firstMenu-container{
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+
+.firstMenu {
+  width: 130px;
+  height: 850px;
+  border-radius: 15px;
+  border: 3px solid #0271a5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px 20px;
+  gap: 7px;
+}
+
+.firstMenu .items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  list-style: none;
+  text-decoration: none;
+  color: #003a57;
+  font-size: 12px;
+  font-weight: 500;
+  cursor: pointer;
+  border-radius: 5px;
+  overflow: hidden;
+  width: 85px;
+  height: 85px;
+  transform: scale(1);
+  transition-property: transform, background-color, color;
+  transition-duration: 300ms;
+  transition-timing-function: ease-in-out;
+}
+
+.firstMenu .items:hover {
+  background-color: #0271a5;
+  transform: scale(1.1);
+  color: white;
+}
+
+/*SECOND MENU*/
+
+.secondMenu-container{
+  width: 100%;
+  height: fit-content;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.secondMenu {
+  width: 130px;
+  height: 1035px;
+  background: rgb(2,113,165);
+  background: linear-gradient(180deg, rgba(2,113,165,1) 0%, rgba(0,58,87,1) 100%);
+  border-radius: 15px;
+  border: 3px solid #0271a5;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding: 10px 20px;
+  gap: 7px;
+}
+
+.secondMenu .items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  list-style: none;
+  text-decoration: none;
+  color: white;
+  font-size: 12px;
+  font-weight: 500;
+  cursor: pointer;
+  border-radius: 5px;
+  overflow: hidden;
+  width: 85px;
+  height: 85px;
+  transform: scale(1);
+  transition-property: transform, background-color, color;
+  transition-duration: 300ms;
+  transition-timing-function: ease-in-out;
+}
+
+.secondMenu .items:hover {
+  background-color: white;
+  transform: scale(1.1);
+  color: #003a57;
+}
